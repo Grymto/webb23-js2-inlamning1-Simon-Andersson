@@ -1,0 +1,30 @@
+.game{
+    border-style: solid;
+    background-color: lightgreen;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 20px;
+}
+.reset-btn{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.name-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.input-btn{
+    height: 30px;
+    width: 200px;
+}

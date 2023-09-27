@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sten, Sax, Påse</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="game">
+      <h1>Sten, Sax, Påse</h1>
+      <div class="name-div">
+        <form>
+        <input class="input-btn" type="text" id="input" placeholder="Skriv ditt namn" />
+        <button id="submitBtn">Start</button>
+        </form>
+      </div>
+      <h1 id="playerName"></h1>
+      <div class="highscore-div">
+      </div>
+      <h1 id="endResult"></h1>
+      <div class="buttons">
+        <button id="Sten" class="choice-btn">
+          <img src="image/Sten.png" alt="Sten" />
+        </button>
+        <button id="Påse" class="choice-btn">
+          <img src="image/Påse.png" alt="Påse" />
+        </button>
+        <button id="Sax" class="choice-btn">
+          <img src="image/sax.png" alt="Sax" />
+        </button>
+      </div>
+      <div>
+        <p id="playerScore"></p>
+        <p id="playerChoice"></p>
+        <p id="computerChoice"></p>
+        <p id="result"></p>
+      </div>
+      <div class="reset-div">
+        <button id="resetBtn" class="reset-btn">Starta om</button>
+      </div>
+    </div>
+  </body>
+</html>

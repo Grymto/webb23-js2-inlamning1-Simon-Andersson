@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "parcel": "^2.9.3"
+  },
+  "name": "webb23-js2-inlamning1-simon-andersson",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./",
+    "clean": "del-cli ./.parcel-cache ./docs ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "del-cli": "^5.1.0"
+  }
+}
